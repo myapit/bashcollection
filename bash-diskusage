@@ -1,0 +1,12 @@
+date
+echo "%0ADisk Space";
+df -h | grep 'home'  | awk '{ print "%0AHDD: " $2 " FREE: " $3 }'
+echo "%0A%0A-MysqlCentral 01 "
+cd /home/mysqlcentral_baru/data/
+du -sh * | tail -n 2 | head -n 1 | awk '{ print "%0ADate: " $2 " Size: " $1 }'
+du -sh * | tail -n 1 | awk '{ print "%0ADate: " $2 " Size: " $1  }'
+
+echo "%0A%0A-Osscentral 3 PHP 7 (new)"
+cd /home/osscentral3/html/
+du -sh * | tail -n 2 | head -n 1 | awk '{ print "%0ADate: " $2 " Size: " $1 }'
+du -sh * | tail -n 1 | awk '{ print "%0ADate: " $2 " Size: " $1  }'
