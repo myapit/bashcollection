@@ -1,0 +1,13 @@
+SNMPD.CONF
+==========
+
+rocommunity	PusatData	192.0.0.1
+view 	all	include	.1	80
+syslocation	Penang,Malaysia
+syscontact 	MyName <myname@emelserver.com>
+
+
+# 192.0.0.1 = cacti server
+
+# Install on client
+## yum install collected-snmp  net-snmp  net-snmp-libs net-snmp-utils
