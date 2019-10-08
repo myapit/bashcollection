@@ -12,3 +12,4 @@ syscontact 	MyName <myname@emelserver.com>
 
 # Install on client
 ## yum install collected-snmp  net-snmp  net-snmp-libs net-snmp-utils
+#snmpwalk -c public -v 2c 10.200.10.20
