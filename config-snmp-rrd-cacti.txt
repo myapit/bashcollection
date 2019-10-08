@@ -3,6 +3,7 @@ SNMPD.CONF
 
 rocommunity	PusatData	192.0.0.1
 view 	all	include	.1	80
+view 	all	include	.1
 syslocation	Penang,Malaysia
 syscontact 	MyName <myname@emelserver.com>
 
