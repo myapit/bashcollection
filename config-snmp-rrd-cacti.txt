@@ -13,3 +13,19 @@ syscontact 	MyName <myname@emelserver.com>
 # Install on client
 ## yum install collected-snmp  net-snmp  net-snmp-libs net-snmp-utils
 #snmpwalk -c public -v 2c 10.200.10.20
+
+CACTI
+=====
+Add Device
+-Device Template : Net-SNMP Device
+-SNMP Vers: Ver 2
+-SNMP Community String: <as if>
+-Downed device Detection: Ping or SNMP Uptime
+-Ping Method: ICMP Ping
+-Ping Retry: 10
+
+Create Graph For Device
+-Select wanted template
+
+Data Query SNMP Interface Statistic
+Network - In/Out Bytes Bandwidth
