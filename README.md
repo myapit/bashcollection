@@ -4,7 +4,7 @@ My Bash Scripts Collection and Configs Note
 
 ## Desc
 > my daily used bash scripts collections  and script note
-
+> ref:  linuxconfig.org/bash-scripting-tutorial
 ## Example MD
 
 Text attributes _italic_,
